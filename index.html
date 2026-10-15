@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Nyaya Logic Lab</title><link rel="stylesheet" href="style.css">
+</head><body>
+<header><b>◈ NYĀYA LAB</b><nav><a href="#home">Home</a><a href="#five">Five Members</a><a href="#engine">Inference</a><a href="#quiz">Quiz</a></nav></header>
+<section class="hero" id="home"><div><small>IKS • COMPUTATIONAL SYSTEMS</small><h1>Think.<br><span>Reason.</span><br>Prove.</h1><p>Explore Nyāya logic through an interactive website where ancient structured reasoning meets modern computational thinking.</p><a class="btn" href="#engine">Build an Inference ↗</a></div><div class="orbit"><div class="core">NYĀYA<br><em>LOGIC</em></div><i>01</i><i>02</i><i>03</i><i>04</i><i>05</i></div></section>
+<section id="five" class="sand"><div class="title"><small>THE FIVE-MEMBER SYLLOGISM</small><h2>From Claim to Conclusion</h2><p>Nyāya expresses an inference through five connected members.</p></div><div class="cards">
+<article><b>01</b><h3>Pratijñā</h3><small>PROPOSITION</small><p>The claim to be established.</p></article>
+<article><b>02</b><h3>Hetu</h3><small>REASON</small><p>The reason supporting the claim.</p></article>
+<article><b>03</b><h3>Udāharaṇa</h3><small>EXAMPLE</small><p>A general example showing the relation.</p></article>
+<article><b>04</b><h3>Upanaya</h3><small>APPLICATION</small><p>Applies the relation to the case.</p></article>
+<article><b>05</b><h3>Nigamana</h3><small>CONCLUSION</small><p>The final conclusion.</p></article>
+</div></section>
+<section class="dark" id="engine"><div class="title light"><small>INTERACTIVE REASONING ENGINE</small><h2>Build a Nyāya Inference</h2><p>Choose a case and assemble its five reasoning steps.</p></div><div class="engine"><div class="controls"><label>Choose a case</label><select id="case"><option value="hill">Hill with smoke</option><option value="kitchen">Kitchen with smoke</option><option value="cloud">Dark cloud and rain</option></select><button class="btn" onclick="runInference()">Run Reasoning →</button><div class="analogy">Modern CS analogy:<br><strong>Input → Rule → Validation → Output</strong></div></div><div class="output" id="output">Select a case and click <b>Run Reasoning</b>.</div></div></section>
+<section><div class="title"><small>MODERN COMPUTER SCIENCE CONNECTION</small><h2>Nyāya as Structured Inference</h2></div><div class="mapping"><div>PRATIJÑĀ<strong>Claim</strong></div><div>HETU<strong>Evidence</strong></div><div>UDĀHARAṆA<strong>General Rule</strong></div><div>UPANAYA<strong>Apply Rule</strong></div><div>NIGAMANA<strong>Output</strong></div></div><div class="note">★ This educational model connects classical reasoning with propositional logic, inference engines and explainable AI.</div></section>
+<section id="quiz" class="quizsec"><div class="title"><small>CHECK YOUR UNDERSTANDING</small><h2>Nyāya Logic Quiz</h2></div><div class="quiz"><div id="meta"></div><h3 id="question"></h3><div id="answers"></div><button class="btn" id="next" disabled>Next →</button><p id="feedback"></p></div></section>
+<footer>NYĀYA LAB • IKS in Computational Systems</footer><script src="script.js"></script>
+</body></html>
